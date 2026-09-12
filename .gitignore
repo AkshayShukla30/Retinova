@@ -1,0 +1,45 @@
+# Virtual environment
+venv/
+env/
+retinova/
+*.venv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Model weights (bade files, GitHub pe nahi jate)
+*.pth
+*.pt
+*.h5
+*.onnx
+*.ckpt
+
+# Datasets (bade files, GitHub pe nahi jate)
+data/
+*.zip
+*.csv
+train_images/
+test_images/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Kaggle API key (SECRET - kabhi upload mat karo)
+kaggle.json
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Streamlit cache
+.streamlit/
+
+# Logs
+*.log
